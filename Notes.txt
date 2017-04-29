@@ -1,0 +1,15 @@
+﻿This first iteration is quite simple, it does the bare minimum to pass all the tests
+
+Verse was obviously meant to handle a real verse, and verses a chunk of verses from the song
+
+Obviously it can be improved for readability and maintainability but it does the trick
+
+In real life I'd aim for something more generic, ie what if you want a gui sometimes not a console app, what if you want to do the same for a poem or haiku
+
+Something more generic would handle that if you separated the presentation from the logic, so it's more about code that fits the test than code that you'd make in the real world
+
+And to handle more esoteric conditions, like if someone wanted to run the song in reverse which it doesn't handle at present
+
+Also personally I wouldn't use a static class for this, it's fine for this example but generally something I'd avoid especially where the code here could be turned into something more generic rather than pertaining to just the beersong
+
+The trap really is meeting the tests, as the tests lead into bad principles...
